@@ -1,0 +1,183 @@
+.site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.header-limage {
+    max-width: 100%;
+    height: auto;
+    padding-right: 120px;
+}
+
+.header-rimage {
+    max-width: 100%;
+    height: auto;
+    padding-left: 120px;
+}
+
+
+
+.header-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+#home-btn, #vitamins-btn {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  
+}
+
+#home-btn {
+    margin-left: 100px;
+  
+}
+
+#vitamins-btn {
+    margin-right: 100px;
+  
+}
+
+#home-btn:hover, #vitamins-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+#home-btn:active, #vitamins-btn:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+.h21 {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    padding-left: 200px;
+    padding-top: 100px;
+    font-weight: 100;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.p1 {
+    max-width: 700px;
+    text-align: left;
+    width: 100%;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    font-size: 18px;
+
+}
+
+.arrow {
+  width: 50px;
+  height: 20px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  transition: transform 0.3s ease;
+  
+}
+.arrow.rotate {
+  transform: rotate(-180deg);
+}
+
+.dropdown-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: auto;
+  background-color: rgb(58, 55, 55);
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 2000;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: cursive;
+  display: block;
+  box-sizing: border-box;
+  padding: 30px 30px;
+}
+
+.dropdown-content a:hover {
+  background: #007bff;
+}
+
+
+/* vitamin a contents here down below */
+
+.vitamin-a-h21 {
+   font-size: 35px;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 200px;
+   margin-top: 150px;
+   display: flex;
+
+}
+
+.vitamin-a-h22 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-left: 200px;
+  margin-top: 20px;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 400;
+
+}
+
+
+.vitamin-a-p1 {
+  padding-bottom: 5rem;
+  max-width: 1000px;
+  margin-left: 200px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.vitamin-a-pic1 {
+  margin-left: 250px;
+  padding-bottom: 100px;
+  display: flex;
+
+}
+
+.vitamin-a-pic2 {
+  margin-left: 150px;
+  max-width: 600px;
+  max-height: 600px;
+  padding-bottom: 50px;
+}
