@@ -1,3 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -129,20 +140,20 @@
 /* vitamin a contents here down below */
 
 .vitamin-a-h21 {
-   font-size: 35px;
+   font-size: clamp(24px, calc(19px + 1.33vw), 35px);
    font-weight: 100;
    font-family: Arial, Helvetica, sans-serif;
-   margin-left: 200px;
-   margin-top: 150px;
+   margin-left: clamp(16px, calc(-67.64px + 22.30vw), 200px);
+   margin-top: clamp(32px, calc(-21.64px + 14.30vw), 150px);
    display: flex;
 
 }
 
 .vitamin-a-h22 {
-  font-size: 30px;
+  font-size: clamp(22px, calc(18.36px + 0.97vw), 30px);
   font-weight: 100;
-  margin-left: 200px;
-  margin-top: 20px;
+  margin-left: clamp(16px, calc(-67.64px + 22.30vw), 200px);
+  margin-top: clamp(12px, calc(8.36px + 0.97vw), 20px);
   display: flex;
   font-family: sans-serif;
   font-weight: 400;
@@ -151,27 +162,26 @@
 
 
 .vitamin-a-p1 {
-  padding-bottom: 5rem;
+  padding-bottom: clamp(2.5rem, calc(1.36rem + 4.85vw), 5rem);
   max-width: 1000px;
-  margin-left: 200px;
-  font-size: 20px;
+  margin-left: clamp(0px, calc(-90.91px + 24.24vw), 200px);
   font-family: sans-serif;
   font-weight: 100;
   
 }
 
 .vitamin-a-pic1 {
-  margin-left: 250px;
-  padding-bottom: 100px;
+  margin-left: clamp(16px, calc(-90.36px + 28.36vw), 250px);
+  padding-bottom: clamp(40px, calc(12.73px + 7.27vw), 100px);
   display: flex;
 
 }
 
 .vitamin-a-pic2 {
-  margin-left: 150px;
-  max-width: 600px;
-  max-height: 600px;
-  padding-bottom: 50px;
+  margin-left: clamp(16px, calc(-44.91px + 16.24vw), 150px);
+  max-width: clamp(300px, calc(163.64px + 36.36vw), 600px);
+  max-height: clamp(300px, calc(163.64px + 36.36vw), 600px);
+  padding-bottom: clamp(24px, calc(12.18px + 3.15vw), 50px);
 }
 
 
@@ -211,5 +221,10 @@
 .p1 {
   padding-left: 0px;
 }
+
+.vitamin-a-p1 {
+    margin-left: 0;
+
+  }
 
 }
