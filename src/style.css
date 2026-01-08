@@ -7,41 +7,12 @@
     font-family: Arial, sans-serif;
 }
 
-@media  (max-width:600px) {
-  .site-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    font-size: 15px;
-  }
-
-  .header-limage,
-  .header-rimage {
-  
-    width: 70px;
-    height: auto;
-
-  }
-  
-
-.header-limage {
-    max-width: 100%;
-    height: auto;
-}
-
-.header-rimage {
-    max-width: 100%;
-    height: auto;
-}
-}
 
 
 .header-btn {
     background-color: #007bff;
     color: white;
-    padding: 20px 30px;
+    padding: clamp(12px, 2.5vw, 20px) clamp(16px, 4vw, 30px);
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -64,12 +35,14 @@
 }
 
 #home-btn {
-    margin-left: 100px;
+   margin-left: clamp(16px, calc(-22.18px + 10.18vw), 100px);
+
   
 }
 
 #vitamins-btn {
-    margin-right: 100px;
+   margin-right: clamp(16px, calc(-22.18px + 10.18vw), 100px);
+
   
 }
 
@@ -86,21 +59,23 @@
     text-align: left;
     font-family: 'Arial', sans-serif;
     color: black;
-    padding-left: 200px;
-    padding-top: 100px;
+    padding-left: clamp(16px, 8vw, 200px);
+    padding-top: clamp(24px, 6vw, 100px);
+    font-size: clamp(28px, 4vw, 50px);
     font-weight: 100;
-    font-size: 50px;
+    
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
+
+
 
 .p1 {
     max-width: 700px;
     text-align: left;
     width: 100%;
-    padding-left: 100px;
-    padding-bottom: 200px;
-    font-size: 18px;
-
+    padding-left: clamp(16px, calc(-22.18px + 10.18vw), 100px);
+    padding-bottom: clamp(60px, calc(-3.64px + 16.97vw), 200px);
+    font-size: clamp(16px, calc(15.09px + 0.24vw), 18px);
 }
 
 .arrow {
@@ -199,18 +174,41 @@
   padding-bottom: 50px;
 }
 
-* { box-sizing: border-box; }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden; /* stops sideways scroll */
+@media  (max-width:600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .site-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .header-limage,
+  .header-rimage {
+  
+    width: 70px;
+    height: auto;
+
+  }
+  
+
+.header-limage {
+    max-width: 100%;
+    height: auto;
 }
 
-img, video, iframe {
-  max-width: 100%;
-  height: auto;
-  display: block;
+.header-rimage {
+    max-width: 100%;
+    height: auto;
+}
+.header-btn {
+
 }
 
+}
