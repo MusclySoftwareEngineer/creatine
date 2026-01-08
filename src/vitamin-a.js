@@ -1,3 +1,5 @@
+
+
 const target = document.querySelector("#vtm-a");
 
 const content = document.createElement("div");
@@ -13,14 +15,21 @@ content.innerHTML = `
 </p>
 
 <h2 class="vitamin-a-h22">Daily intake</h2>
+
 <img src="./pic/vitamin-A-intake.png" alt="A daily intake"
 class="vitamin-a-pic2">
-  
+<a class="vitamin-a-source1" href="https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/" target="_blank" rel="noopener noreferrer">Source</a>
 
+<h2 class="vitamin-a-h23">Side Effects</h2>
+<p class="vitamin-a-p2">Vitamin A doesn’t cause side effects when consumed in appropriate amounts, but because
+ it’s fat-soluble, excessive intake can cause side effects.
+</p>
 
-
-
-
+<ul class="vitamin-a-ul1">
+  <li>Night vision</li>
+  <li>Immune defense</li>
+  <li>Skin health</li>
+</ul>
 `;
 
 
