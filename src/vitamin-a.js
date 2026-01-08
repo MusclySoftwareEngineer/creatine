@@ -26,9 +26,14 @@ class="vitamin-a-pic2">
 </p>
 
 <ul class="vitamin-a-ul1">
-  <li>Night vision</li>
-  <li>Immune defense</li>
-  <li>Skin health</li>
+  <li>Dry, rough skin, cracked lips</li>
+  <li>Hair loss</li>
+  <li>Headache</li>
+  <li>Bone and join pain</li>
+  <li>Liver damage</li>
+  <li>Nausea, vomiting</li>
+  <li>Blurred or Double vision</li>
+  <li>Skin peeling or Desquamation</li>
 </ul>
 `;
 
