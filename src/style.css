@@ -166,6 +166,7 @@
   font-size: 20px;
   font-family: sans-serif;
   font-weight: 100;
+  
 }
 
 .vitamin-a-pic1 {
@@ -180,4 +181,29 @@
   max-width: 600px;
   max-height: 600px;
   padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  /* remove big offsets that cause horizontal scroll */
+  .h21, .p1,
+  .vitamin-a-h21, .vitamin-a-h22, .vitamin-a-p1,
+  .vitamin-a-pic1, .vitamin-a-pic2 {
+    margin-left: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
+  }
+
+  #home-btn, #vitamins-btn {
+    margin: 0;
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .site-header, .header-btn {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  img { max-width: 100%; height: auto; }
 }
