@@ -1,8 +1,7 @@
 console.log("main.js");
 
-const app = document.getElementById("app");
-
-app.innerHTML = `
+if (!document.querySelector(".header-btn")) {
+  document.body.insertAdjacentHTML("afterbegin", `
 <header class="site-header">
     <img src="./pic/left_one.jpeg" alt="Sport Nutrition" class="header-limage">
     <h1>Sport Nutrition</h1>
@@ -33,8 +32,8 @@ app.innerHTML = `
     <a href="vitamin-b.html">Vitamin B</a>
     <a href="vitamin-c.html">Vitamin C</a>
   </div>
-   </div>
 </div>
+  </div>
 </div>
 
 
@@ -43,7 +42,8 @@ app.innerHTML = `
 <!-- text -->
 <!-- text is moved to each html currently -->
 
-`;
+`);
+}
 
 const btn = document.getElementById("vitamins-btn");
 const menu = document.getElementById("vitamins-menu");

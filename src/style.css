@@ -9,6 +9,12 @@ img, video, iframe {
   display: block;
 }
 
+.sticky1 {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -53,9 +59,12 @@ img, video, iframe {
 
 #vitamins-btn {
    margin-right: clamp(16px, calc(-22.18px + 10.18vw), 100px);
-
+   display: inline-flex;
+   align-items: center;
+ 
   
 }
+
 
 #home-btn:hover, #vitamins-btn:hover {
   background-color: #0056b3;
@@ -271,7 +280,7 @@ img, video, iframe {
 
 
 @media  (max-width:600px) {
-  html, body {
+  body {
     overflow-x: hidden;
   }
 
@@ -320,7 +329,7 @@ img, video, iframe {
 }
 
 #vitamins-btn {
-  margin-right: 3px;  
+  margin-right: 5px;  
 }
 
 .vitamin-a-h31 {
@@ -331,4 +340,9 @@ img, video, iframe {
   margin-left: 10px;
 }
 
+.header-btn {
+  position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 }
