@@ -188,6 +188,16 @@ img, video, iframe {
   font-weight: 400;
 }
 
+.vitamin-a-h25{
+    font-size: clamp(22px, calc(18.36px + 0.97vw), 30px);
+  font-weight: 100;
+  margin-left: clamp(16px, calc(-67.64px + 22.30vw), 200px);
+  margin-top: clamp(32px, calc(-21.64px + 14.30vw), 150px);
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
 .vitamin-a-h31 {
    margin-left: clamp(16px, calc(0.55px + 4.12vw), 50px);
    display: flex;
@@ -228,6 +238,18 @@ img, video, iframe {
   flex-direction: column;
   gap: 30px;
   
+}
+
+.vitamin-a-ul2 {
+  margin-bottom: clamp(20px, calc(6.36px + 3.64vw), 50px);
+  max-width: 1000px;
+  margin-left: clamp(0px, calc(-90.91px + 24.24vw), 200px);
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: clamp(16px, calc(15.09px + 0.24vw), 18px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .vitamin-a-pic1 {

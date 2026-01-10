@@ -42,6 +42,25 @@ content.innerHTML = `
   <li>Blurred or Double vision</li>
   <li>Skin peeling or Desquamation</li>
 </ul>
+
+<h2 class="vitamin-a-h25">Deficiency Symptons</h2>
+<ul class="vitamin-a-ul2">
+  <li>anemia</li>
+  <li>Night blindness (nyctalopia)</li>
+  <li>Xerophthalmia (dry eye) / conjunctival xerosis</li>
+  <li>Bitot’s spots</li>
+  <li>Corneal xerosis</li>
+  <li>Corneal ulceration</li>
+  <li>Keratomalacia</li>
+  <li>Corneal scarring / irreversible blindness (late/severe)</li>
+  <li>Retinal dysfunction / retinal pigment epithelial changes</li>
+  <li>Optic atrophy (reported in severe cases)</li>
+  <li>Dry/rough skin (xerosis)</li>
+  <li>Follicular hyperkeratosis / phrynoderma (keratin plugs)</li>
+  <li>Increased susceptibility to infections / impaired immune function</li>
+</ul>
+
+
 `;
 
 
