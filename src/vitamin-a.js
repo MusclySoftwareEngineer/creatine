@@ -36,7 +36,7 @@ content.innerHTML = `
   <li>Dry, rough skin, cracked lips</li>
   <li>Hair loss</li>
   <li>Headache</li>
-  <li>Bone and join pain</li>
+  <li>Bone and joint pain</li>
   <li>Liver damage</li>
   <li>Nausea, vomiting</li>
   <li>Blurred or Double vision</li>
@@ -45,7 +45,7 @@ content.innerHTML = `
 
 <h2 class="vitamin-a-h25">Deficiency Symptons</h2>
 <ul class="vitamin-a-ul2">
-  <li>anemia</li>
+  <li>Anemia</li>
   <li>Night blindness (nyctalopia)</li>
   <li>Xerophthalmia (dry eye) / conjunctival xerosis</li>
   <li>Bitot’s spots</li>
