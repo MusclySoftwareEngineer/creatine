@@ -1,5 +1,5 @@
 
-const target = document.querySelector("#app");
+const target = document.querySelector("#vtm-a");
 
 const content = document.createElement("div");
 content.classList.add("vitamin-a-page");
