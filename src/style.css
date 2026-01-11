@@ -175,7 +175,6 @@ img, video, iframe {
   margin-top: clamp(12px, calc(8.36px + 0.97vw), 20px);
   display: flex;
   font-family: sans-serif;
-
 }
 
 .vitamin-a-h24 {
@@ -298,6 +297,15 @@ img, video, iframe {
   border: 1.5px solid;
   display: inline-block;
 
+}
+
+.vitamin-b-h21 {
+  font-size: clamp(24px, calc(19px + 1.33vw), 35px);
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: clamp(16px, calc(-67.64px + 22.30vw), 200px);
+  margin-top: clamp(32px, calc(-21.64px + 14.30vw), 150px);
+  display: flex;
 }
 
 

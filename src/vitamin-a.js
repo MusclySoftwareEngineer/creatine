@@ -1,8 +1,8 @@
 
-
-const target = document.querySelector("#vtm-a");
+const target = document.querySelector("#app");
 
 const content = document.createElement("div");
+content.classList.add("vitamin-a-page");
 content.innerHTML = `
 <h2 class="vitamin-a-h21">Vitamin A</h2>
 <img src="./pic/Vitamin-A.jpg" alt="vitamin a source" class="vitamin-a-pic1">
