@@ -24,10 +24,6 @@ img, video, iframe {
     font-family: Arial, sans-serif;
 }
 
-.site-header h1{ 
-  margin: 0;
-  line-height: 1.1;
-}
 
 
 
@@ -331,7 +327,7 @@ img, video, iframe {
 
   .header-limage,
   .header-rimage {
-    width: 70px;
+    width: 90px;
     height: auto;
 
   }
@@ -382,6 +378,10 @@ img, video, iframe {
     z-index: 1000;
 }
 
+.site-header h1{ 
+  margin: 0;
+  line-height: 1.1;
+}
 
 
 }
